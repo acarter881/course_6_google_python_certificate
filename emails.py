@@ -34,7 +34,6 @@ def generate_error_report(sender, recipient, subject, body):
 
   return message
 
-
 def send_email(message):
   '''Sends the message to the configured SMTP server'''
   mail_server = smtplib.SMTP('localhost')
